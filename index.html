@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css"/>
-  <title>Charlot C(h)at</title>
-</head>
-<body>
-  <header>
-  <h1>Welcome to Charlot C(h)at</h1>
-  <h2>Do you have cat related question? He will answer to all of them!</h2>
-  </header>
-  <main>
-    <form></form>
-    <input type="text" placeholder="Do you have questions about cats?" autofocus required />
-    <input type="submit" />
-    </form>
-    <div>Meow. The answer to all your cat related questions is here.</div>
-  </main>
-  <footer>This AI project was coded by <a href="https://github.com/beatrizevedo">Beatriz Azevedo</a>. It's open sourced on <a href="https://github.com/beatrizevedo/charlot-chat">GitHub</a> and <a href="https://charlot-chat.netlify.app/">hosted on Netlify</a>.
-  </footer>
-  <script src="src/index.js"></script>
-</body>
+  <head>
+    <link />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Charlot C(h)at</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/120/261/original/_FO6F715EBB82_2.png?1711113846"
+        alt="Charlot Cat"
+      />
+      <h1>Welcome to Charlot C(h)at</h1>
+      <h2>Do you have cat related question? He will answer to all of them.</h2>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="  Do you have questions about cats?"
+          autofocus
+          required
+          class="text-form"
+        />
+        <input type="submit" placeholder="Submit" class="submit-button" />
+      </form>
+    </main>
+    <div class="answer" id="answer">
+      Meow. Meow Meow. Meow. Meow Meow. Meow. Meow Meow.
+    </div>
+
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/beatrizevedo">Beatriz Azevedo</a> and Charlot.
+      It's open sourced on
+      <a href="https://github.com/beatrizevedo/charlot-chat">GitHub</a> and
+      <a href="https://charlot-chat.netlify.app/">hosted on Netlify</a>.
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
 </html>
